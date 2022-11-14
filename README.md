@@ -1,3 +1,5 @@
+![wireframe](./assets/wireframe.png)
+
 # Plan
 
 ### HTML
