@@ -15,7 +15,13 @@ main {
 .anchor {
     padding: 20px;
 }
+h1 {
+    text-align: center;
+}
 
+h2 {
+    text-align: center;
+}
 p {
     padding-left: 10px;
     color: rgba(0, 0, 0, 0.655);
@@ -26,6 +32,14 @@ p {
     height: auto;
 }
 
-.guitar-main-section {
+.guitar-detail {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    align-self: center;
+    justify-content: space-around;
+}
+
+#return-home {
+    margin-left: 40%;
 }
