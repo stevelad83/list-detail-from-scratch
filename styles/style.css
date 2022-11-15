@@ -1,0 +1,17 @@
+.pictures {
+    width: 50%;
+    height: auto;
+}
+
+main {
+    background: linear-gradient(to left top, brown, gold);
+}
+
+.guitar-card {
+    border: solid black 1px;
+    border-radius: 1px;
+}
+
+.anchor {
+    padding: 20px;
+}

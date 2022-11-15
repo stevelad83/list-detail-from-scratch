@@ -11,6 +11,5 @@ export async function getGuitars() {
 
 export async function getGuitar(id) {
     const response = await client.from('guitars').select('*').match({ id: id }).single();
-    console.log(response);
     return response.data;
 }

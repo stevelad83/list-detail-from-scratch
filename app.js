@@ -7,7 +7,6 @@ const guitarListContainer = document.getElementById('guitar-list-container');
 /* Events */
 window.addEventListener('load', async () => {
     const guitars = await getGuitars();
-    console.log(guitars);
     for (let guitar of guitars) {
         const guitarEl = renderGuitarCard(guitar);
         guitarListContainer.append(guitarEl);
