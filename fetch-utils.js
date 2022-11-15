@@ -8,3 +8,9 @@ export async function getGuitars() {
     const response = await client.from('guitars').select('*');
     return response.data;
 }
+
+export async function getGuitar(id) {
+    const response = await client.from('guitars').select('*').match({ id: id }).single();
+    console.log(response);
+    return response.data;
+}
