@@ -5,9 +5,9 @@ export function renderGuitarCard(guitar) {
 
     div.classList.add('guitar-card');
 
-    p.textContent = guitar.name;
+    p.textContent = `Name: ${guitar.name}, Brand:${guitar.company}, Type: ${guitar.type}, Price: $${guitar.price}`;
     a.href = `./detail/?id=${guitar.id}`;
 
-    div.append(p);
-    return a;
+    div.append(p, a);
+    return div;
 }
