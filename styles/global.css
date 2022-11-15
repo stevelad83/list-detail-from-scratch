@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=MedievalSharp&family=Merriweather:ital,wght@1,300&family=Poppins:ital,wght@1,100&display=swap');
+
 :root {
     --background: rgb(224, 234, 247);
     --header-background: rgb(254, 251, 245);
-    --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
-        'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
+    --primary-font: 'DM Serif Display', serif;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {

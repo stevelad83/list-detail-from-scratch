@@ -46,7 +46,7 @@ export function renderGuitarDetail(guitar) {
 
     nameEl.textContent = guitar.name;
     nameEl.classList.add('name');
-    priceEl.textContent = `$${guitar.price}`;
+    priceEl.textContent = `💵 $${guitar.price} 💵`;
     brandEl.textContent = `Made by ${guitar.company}`;
     priceEl.classList.add('price');
     typeEl.textContent = `A classic ${guitar.type} guitar`;
