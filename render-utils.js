@@ -39,8 +39,10 @@ export function renderGuitarDetail(guitar) {
     const brandEl = document.createElement('p');
     const priceEl = document.createElement('p');
     const typeEl = document.createElement('p');
+    const imgEl = document.createElement('img');
 
     div.classList.add('guitar-detail');
+    imgEl.classList.add('detail-image');
 
     nameEl.textContent = guitar.name;
     nameEl.classList.add('name');
@@ -48,8 +50,9 @@ export function renderGuitarDetail(guitar) {
     brandEl.textContent = `Made by ${guitar.company}`;
     priceEl.classList.add('price');
     typeEl.textContent = `A classic ${guitar.type} guitar`;
+    imgEl.src = `/assets/${guitar.name}.png`;
 
-    div.append(nameEl, brandEl, typeEl, priceEl);
+    div.append(nameEl, brandEl, typeEl, priceEl, imgEl);
 
     return div;
 }

@@ -15,3 +15,17 @@ main {
 .anchor {
     padding: 20px;
 }
+
+p {
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.655);
+}
+
+.detail-image {
+    width: 50%;
+    height: auto;
+}
+
+.guitar-main-section {
+    align-items: center;
+}
