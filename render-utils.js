@@ -1,18 +1,4 @@
 export function renderGuitarCard(guitar) {
-    // const div = document.createElement('div');
-    // const a = document.createElement('a');
-    // const p = document.createElement('p');
-    // const img = document.createDocumentFragment('img');
-
-    // div.classList.add('guitar-card');
-    // img.src = 'assets/Stratocaster.png';
-    // console.log(img);
-    // p.textContent = `Name: ${guitar.name}, Price: $${guitar.price}`;
-    // a.href = `./guitar/?id=${guitar.id}`;
-
-    // div.append(p, img);
-    // a.append(div);
-    // return a;
     const div = document.createElement('div');
     const a = document.createElement('a');
     const img = document.createElement('img');
